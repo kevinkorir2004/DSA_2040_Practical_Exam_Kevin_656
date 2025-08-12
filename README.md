@@ -46,4 +46,16 @@ The star schema is denormalized, making queries faster and easier for OLAP opera
 It simplifies joins between fact and dimensions, which is ideal for analytics and reporting.  
 A snowflake schema would require more joins, increasing complexity without much benefit in this case.
 
-![Star Schema Diagram](DataWarehousing/Task1_SchemaDesign/schema_diagram.png)
+### **Task 2: ETL Process**
+- Generated synthetic retail data (1000 records)  
+- Transformed and loaded to SQLite: [`retail_dw.db`](Data%20Warehousing/Task2_ETLProcess/retail_dw.db)  
+- ETL script: [`etl_retail.py`](Data%20Warehousing/Task2_ETLProcess/etl_retail.py)
+
+### **Task 3: OLAP Analysis** *(New!)*
+- Executed 3 OLAP queries:  
+  - Roll-up (sales by country/quarter)  
+  - Drill-down (UK monthly sales)  
+  - Slice (electronics category)  
+- Visualization:  
+  ![Quarterly Sales](Data%20Warehousing/Task3_OLAPQueries/sales_by_country.png)  
+- Full analysis: [`analysis_report.md`](Data%20Warehousing/Task3_OLAPQueries/analysis_report.md)
