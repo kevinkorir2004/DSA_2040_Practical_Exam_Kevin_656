@@ -1,0 +1,13 @@
+
+=== Sales by Country/Quarter ===
+Country Quarter  TotalSales
+ France    None   333595.32
+Germany    None   282915.03
+  Kenya    None   227576.09
+     UK    None   263735.40
+     US    None   218675.77
+
+=== UK Monthly Sales ===
+Empty DataFrame
+Columns: [Month, Description, TotalQuantity, TotalSales]
+Index: []
