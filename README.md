@@ -5,37 +5,18 @@ This repository contains my submission for the DSA 2040 End Semester Practical E
 
 ## 📂 Project Structure
 DSA_2040_Practical_Exam_Kevin_656/
-├── README.md # This documentation file
-├── requirements.txt # Python dependencies
-├── Section1_DataWarehousing/ # Data Warehousing tasks (50 marks)
-│ ├── Task1_SchemaDesign/ # Star schema design (15 marks)
-│ │ ├── schema_design.sql # SQL table definitions
-│ │ └── schema_diagram.png # Schema visualization
-│ ├── Task2_ETLProcess/ # ETL implementation (20 marks)
-│ │ ├── etl_retail.py # Python ETL script
-│ │ ├── retail_data.csv # Sample dataset
-│ │ └── retail_dw.db # SQLite database
-│ └── Task3_OLAPQueries/ # OLAP analysis (15 marks)
-│ ├── olap_queries.sql # OLAP SQL queries
-│ ├── sales_visualization.png # Sales analysis chart
-│ └── olap_analysis.md # Query insights report
-└── Section2_DataMining/ # Data Mining tasks (50 marks)
-├── Task1_Preprocessing/ # Data preprocessing (15 marks)
-│ ├── preprocessing_iris.py # Preprocessing script
-│ ├── iris_data.csv # Iris dataset
-│ └── visualizations/ # Exploratory visuals
-│ ├── pairplot.png # Feature relationships
-│ ├── heatmap.png # Correlation matrix
-│ └── boxplots.png # Outlier detection
-├── Task2_Clustering/ # Clustering (15 marks)
-│ ├── clustering_iris.py # K-Means implementation
-│ ├── elbow_curve.png # K-selection visual
-│ └── clusters.png # Cluster visualization
-└── Task3_ClassificationARM/ # Classification & ARM (20 marks)
-├── mining_iris_basket.py # Mining scripts
-├── decision_tree.png # Classifier visualization
-├── transaction_data.csv # Synthetic market basket data
-└── rules.txt # Association rules output
+├── Data Mining/
+│ ├── Task1_Preprocessing/
+│ │ ├── preprocessing_iris.py
+│ │ └── output/ (processed_data.csv, visualizations)
+│ ├── Task2_Clustering/
+│ │ ├── clustering_iris.py
+│ │ └── output/ (cluster_results.png, elbow_plot.png)
+│ └── Task3_Classification/
+│ ├── classification_iris.py
+│ ├── association_rules.py
+│ └── output/ (decision_tree.png, association_rules.csv)
+└── README.md
 
 ## Task 1: Data Warehouse Design
 
@@ -74,7 +55,37 @@ A snowflake schema would require more joins, increasing complexity without much 
 - Metrics: Adjusted Rand Index (ARI)  
 - Output: Cluster visualization  
 
-### Task 3: Classification & Association Rules (Upcoming)
-- Part A: Compare Decision Tree vs. KNN  
-- Part B: Apriori algorithm for market basket analysis  
 
+### 🔍 Dataset Sources
+| Task | Data Type | Source | Rows | Columns |
+|------|-----------|--------|------|---------|
+| 1 | Iris | Scikit-learn | 150 | 5 |
+| 2 | Retail | Synthetic (Faker) | 1000 | 8 |
+| 3 | Market Basket | Synthetic | 50 | 10 |
+
+### 🚀 Execution Guide
+1. Clone repository:
+   ```bash
+   git clone https://github.com/kevinkorir2004/DSA_2040_Practical_Exam_Kevin_656.git
+   cd DSA_2040_Practical_Exam_Kevin_656
+
+# Data Mining Tasks
+python "Data Mining/Task1_Preprocessing/preprocessing_iris.py"
+python "Data Mining/Task2_Clustering/clustering_iris.py"
+python "Data Mining/Task3_Classification/classification_iris.py"
+python "Data Mining/Task3_Classification/association_rules.py"
+
+**How to implement:**
+1. Open your `README.md` file
+2. Paste this at the **bottom** of the file
+3. Customize the:
+   - Known Issues (if any)
+   - Self-Assessment percentages
+   - Add/remove visualization images as needed
+
+**Final verification steps:**
+1. Check all hyperlinks work
+2. Verify image paths match your actual files
+3. Ensure the directory structure reflects your actual repo
+
+  
