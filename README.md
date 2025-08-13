@@ -59,3 +59,22 @@ A snowflake schema would require more joins, increasing complexity without much 
 - Visualization:  
   ![Quarterly Sales](Data%20Warehousing/Task3_OLAPQueries/sales_by_country.png)  
 - Full analysis: [`analysis_report.md`](Data%20Warehousing/Task3_OLAPQueries/analysis_report.md)
+
+  ## Section 2: Data Mining
+
+### Task 1: Preprocessing & Exploration
+- **Script**: `preprocessing_iris.py`  
+- **Outputs**:  
+  - Normalized dataset (`iris_processed.csv`)  
+  - Visualizations (`pairplot.png`, `heatmap.png`)  
+  - Summary statistics (`summary_stats.csv`)  
+
+### Task 2: Clustering (Upcoming)
+- Will apply K-Means to identify species clusters  
+- Metrics: Adjusted Rand Index (ARI)  
+- Output: Cluster visualization  
+
+### Task 3: Classification & Association Rules (Upcoming)
+- Part A: Compare Decision Tree vs. KNN  
+- Part B: Apriori algorithm for market basket analysis  
+
