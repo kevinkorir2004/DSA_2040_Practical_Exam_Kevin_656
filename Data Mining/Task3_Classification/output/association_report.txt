@@ -1,0 +1,18 @@
+# Association Rule Mining Report (2025-08-13 05:19:49)
+
+## Top 5 Rules by Lift
+ antecedents  consequents  antecedent support  consequent support  support  confidence     lift  representativity  leverage  conviction  zhangs_metric  jaccard  certainty  kulczynski
+     (fruit) (vegetables)                0.37                0.42     0.18    0.486486 1.158301               1.0    0.0246    1.129474       0.216931 0.295082   0.114632    0.457529
+(vegetables)      (fruit)                0.42                0.37     0.18    0.428571 1.158301               1.0    0.0246    1.102500       0.235632 0.295082   0.092971    0.457529
+      (milk)     (yogurt)                0.45                0.30     0.15    0.333333 1.111111               1.0    0.0150    1.050000       0.181818 0.250000   0.047619    0.416667
+    (yogurt)       (milk)                0.30                0.45     0.15    0.500000 1.111111               1.0    0.0150    1.100000       0.142857 0.250000   0.090909    0.416667
+      (eggs)     (butter)                0.43                0.34     0.16    0.372093 1.094391               1.0    0.0138    1.051111       0.151316 0.262295   0.048626    0.421341
+
+## Key Insights
+1. STRONGEST ASSOCIATION: 
+   - When people buy ['fruit'], they also buy ['vegetables']
+   - Confidence: 0.49, Lift: 1.16
+
+2. MOST FREQUENT ITEMSET: 
+   - ['beer', 'cheese']
+   - Support: 0.45
