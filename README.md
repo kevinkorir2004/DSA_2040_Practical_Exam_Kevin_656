@@ -63,6 +63,15 @@ A snowflake schema would require more joins, increasing complexity without much 
 | 2 | Retail | Synthetic (Faker) | 1000 | 8 |
 | 3 | Market Basket | Synthetic | 50 | 10 |
 
+## Marking Scheme Alignment
+| Criteria | Evidence Location |
+|----------|-------------------|
+| Data Preprocessing (15) | Task1_Preprocessing/output/ |
+| Clustering (15) | Task2_Clustering/clustering_iris.py |
+| Classification (10) | Task3_Classification/classification_iris.py |
+| Association Rules (10) | Task3_Classification/association_rules.py | 
+| Documentation (10) | README.md |
+
 ### 🚀 Execution Guide
 1. Clone repository:
    ```bash
